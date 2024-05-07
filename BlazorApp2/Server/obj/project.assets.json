@@ -1498,19 +1498,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AQLCLU\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Server\\BlazorApp2.Server.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Server\\BlazorApp2.Server.csproj",
       "projectName": "BlazorApp2.Server",
-      "projectPath": "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Server\\BlazorApp2.Server.csproj",
-      "packagesPath": "C:\\Users\\AQLCLU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Server\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Server\\BlazorApp2.Server.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AQLCLU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1518,18 +1518,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Client\\BlazorApp2.Client.csproj": {
-              "projectPath": "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Client\\BlazorApp2.Client.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Client\\BlazorApp2.Client.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Client\\BlazorApp2.Client.csproj"
             },
-            "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {
-              "projectPath": "C:\\Users\\AQLCLU\\Desktop\\Task\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj"
+            "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {
+              "projectPath": "C:\\Users\\ACER\\Source\\Repos\\test\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj"
             }
           }
         }
@@ -1572,7 +1571,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

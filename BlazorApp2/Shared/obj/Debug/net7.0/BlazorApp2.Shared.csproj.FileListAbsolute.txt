@@ -10,3 +10,14 @@ C:\Users\AQLCLU\Desktop\Task\BlazorApp2\BlazorApp2\Shared\obj\Debug\net7.0\Blazo
 C:\Users\AQLCLU\Desktop\Task\BlazorApp2\BlazorApp2\Shared\obj\Debug\net7.0\refint\BlazorApp2.Shared.dll
 C:\Users\AQLCLU\Desktop\Task\BlazorApp2\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.pdb
 C:\Users\AQLCLU\Desktop\Task\BlazorApp2\BlazorApp2\Shared\obj\Debug\net7.0\ref\BlazorApp2.Shared.dll
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\bin\Debug\net7.0\BlazorApp2.Shared.deps.json
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\bin\Debug\net7.0\BlazorApp2.Shared.dll
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\bin\Debug\net7.0\BlazorApp2.Shared.pdb
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.AssemblyInfoInputs.cache
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.AssemblyInfo.cs
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.dll
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\refint\BlazorApp2.Shared.dll
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\BlazorApp2.Shared.pdb
+C:\Users\ACER\Source\Repos\test\BlazorApp2\Shared\obj\Debug\net7.0\ref\BlazorApp2.Shared.dll

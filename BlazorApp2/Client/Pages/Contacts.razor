@@ -3,8 +3,64 @@
 
 <PageTitle>Contacts</PageTitle>
 
-<h1>Contacts</h1>
+<div class="card">
+    <div class="card-header">
+        <h3>Contacts List <a href="NewContact" class="float-end"><h5 class="btn btn-primary">New Contact</h5></a></h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Contact Id
+                    </th>
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Password
+                    </th>
+                    <th>
+                        Update
+                    </th>
+                    <th>
+                        Delete
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (apiResponseData != null && apiResponseData.data.Count > 0)
+                {
+                    var records = apiResponseData.data;
+                    @foreach (var contactInfo in records)
+                    {
+                        <tr>
+                            <td>@contactInfo.ID</td>
+                            <td>@contactInfo.FirstName</td>
+                            <td>@contactInfo.LastName</td>
+                            <td>@contactInfo.Email</td>
+                            <td>@contactInfo.PhoneNumber</td>
+                            <td><a class="btn btn-info" href="/UpdateContact/@contactInfo.ID">Update</a></td>
+                            <td><button type="button" class="btn btn-danger" @onclick="() => Delete(contactInfo.ID)">Delete</button></td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <p>No Data Found</p>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
 
+@* 
 @if (apiResponseData != null && apiResponseData.data.Count > 0)
 {
     var records = apiResponseData.data;
@@ -29,4 +85,4 @@ else
 else
 {
     <p>Failed to insert record due to @apiResponseData2.errorMessage</p>
-}
+} *@

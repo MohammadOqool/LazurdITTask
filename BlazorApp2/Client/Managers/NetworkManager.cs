@@ -18,17 +18,24 @@ namespace BlazorApp2.Client.Managers
 
         public async Task<HttpResponseMessage> GetAsyncData(string serviceUrl, Dictionary<string, object> parameters = null)
         {
-            string parametersStr;
+            string parametersStr = "";
 
             if (parameters != null)
             {
                 parametersStr = "?";
+                var counter = 1;
                 foreach (var entry in parameters)
                 {
                     var param = $"{entry.Key}={entry.Value}";
-                    parametersStr += $"& {param}";
+                    parametersStr += $"{param}";
+
+                    if (counter > 1 && counter < parameters.Count)
+                    {
+                        parametersStr += "&";
+                    }
                 }
             }
+            serviceUrl = $"{serviceUrl}/{parametersStr}";
             return await httpClient.GetAsync(serviceUrl);
         }
 
