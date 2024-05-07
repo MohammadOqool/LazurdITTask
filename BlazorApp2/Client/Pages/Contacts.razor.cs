@@ -18,6 +18,7 @@ namespace BlazorApp2.Client.Pages
 
         public ApiResponse<List<Contact>> apiResponseData;
         public ApiResponse<Contact> apiResponseData2;
+        public ApiResponse<bool> deleteApiResponseData2;
 
         protected override async Task OnInitializedAsync()
         {
@@ -36,6 +37,19 @@ namespace BlazorApp2.Client.Pages
 
             var apiHttpResponseMessage2 = await networkManager.PostAsyncData("api/contacts/addContact", contact);
             apiResponseData2 = networkManager.HandleResponse<Contact>(apiHttpResponseMessage2);
+
+            Dictionary<string, object> parameters = new Dictionary<string, object>
+            {
+                ["id"] = 1
+            };
+            var apiHttpResponseMessage3 = await networkManager.GetAsyncData("api/contacts/deleteContact", parameters);
+            deleteApiResponseData2 = networkManager.HandleResponse<bool>(apiHttpResponseMessage3);
+
+            var updateapiHttpResponseMessage3 = await networkManager.PostAsyncData($"api/contacts/updateContact/{1}", contact);
+            apiResponseData2 = networkManager.HandleResponse<Contact>(updateapiHttpResponseMessage3);
+
+            var updateapiHttpResponseMessage4 = await networkManager.GetAsyncData($"getContactById", parameters);
+            apiResponseData2 = networkManager.HandleResponse<Contact>(updateapiHttpResponseMessage4);
 
 
             //apiResponseData = await httpClient.GetAsync<ApiResponse<List<Contact>>>("api/contacts/getAllContacts");

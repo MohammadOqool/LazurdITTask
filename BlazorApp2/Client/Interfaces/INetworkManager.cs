@@ -10,7 +10,6 @@ namespace BlazorApp2.Client.Interfaces
 
         Task<HttpResponseMessage> GetAsyncData(string serviceUrl, Dictionary<string, object> parameters = null);
         Task<HttpResponseMessage> PostAsyncData(string serviceUrl, object requestBody, bool isFormUrlEncodedContent = false);
-        //Task<HttpResponseMessage> PutAsyncData(string serviceUrl, Dictionary<string, object> requestBody, bool isFormUrlEncodedContent = false);
 
         ApiResponse<T> HandleResponse<T>(HttpResponseMessage httpResponseMessage);
     }

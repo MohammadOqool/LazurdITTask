@@ -53,8 +53,6 @@ namespace BlazorApp2.Client.Managers
                 return await httpClient.PostAsync(serviceUrl, formUrlEncodedContent);
             }
         }
-
-
         /* public ApiResponse<T> GetAsyncData<T>(string serviceUrl, Dictionary<string, object> parameters = null)
          {
              string parametersStr;
