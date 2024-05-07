@@ -1,0 +1,32 @@
+﻿@page "/contacts"
+
+
+<PageTitle>Contacts</PageTitle>
+
+<h1>Contacts</h1>
+
+@if (apiResponseData != null && apiResponseData.data.Count > 0)
+{
+    var records = apiResponseData.data;
+    @foreach (var contactInfo in records)
+    {
+        <p>@contactInfo.FirstName</p>
+    }
+
+}
+else
+{
+    <p>No Data Found</p>
+}
+
+
+
+@if (apiResponseData2 != null && apiResponseData2.data != null)
+{
+    var records = apiResponseData2.data;
+    <p>@records.FirstName</p>
+}
+else
+{
+    <p>Failed to insert record due to @apiResponseData2.errorMessage</p>
+}
